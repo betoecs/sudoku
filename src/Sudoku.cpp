@@ -144,7 +144,7 @@ void Sudoku::getInvalidPositions(std::vector <int> &invalidPositions) const
 	{
 		std::vector <int> repitedNumbersInColumn;
 		std::vector <int> repitedNumbersInRow;
-		for (int j = 0; j < 8; j++)
+		for (int j = 0; j < 9; j++)
 		{
 			int number = sudoku [i * COLUMNS + j];
 			if (number)
