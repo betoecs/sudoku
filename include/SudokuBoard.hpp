@@ -13,7 +13,8 @@ public:
 	enum Tiles
 	{
 		Cursor = 9,
-		InvalidNumber = 10
+		InvalidNumber = 10,
+		Clue = 11
 	};
 
 	SudokuBoard(Sudoku::Level level);
@@ -29,6 +30,7 @@ private:
 	TileLayer *contentLayer;
 	TileLayer *cursorLayer;
 	TileLayer *invalidLayer;
+	TileLayer *cluesLayer;
 };
 
 #endif // SUDOKU_BOARD_HPP

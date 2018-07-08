@@ -9,6 +9,7 @@ SudokuBoard::SudokuBoard(Sudoku::Level level) : TileMap(Point(9, 9), Point(64, 6
 	addTileset("content-tileset.png", "content");
 
 	invalidLayer = addLayer("board");
+	cluesLayer = addLayer("board");
 
 	cursorLayer = addLayer("board");
 	cursorLayer->set(0, 0, Cursor);
@@ -27,12 +28,11 @@ SudokuBoard::SudokuBoard(Sudoku::Level level) : TileMap(Point(9, 9), Point(64, 6
 	contentLayer = addLayer("content");
 	sudoku = new Sudoku(level);
 	for (int row = 0; row < 9; row++)
-	{
 		for (int column = 0; column < 9; column++)
-		{
 			contentLayer->set(column, row, sudoku->get(column, row) - 1);
-		}
-	}
+
+	for (auto cluePosition : sudoku->getCluePositions())
+		cluesLayer->set(cluePosition, Clue);
 }
 
 ///////////////////////////////////////////

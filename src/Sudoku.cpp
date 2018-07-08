@@ -244,6 +244,12 @@ void Sudoku::getInvalidPositions(std::vector <int> &invalidPositions) const
 }
 
 /////////////////////////////////////
+const std::vector <int> & Sudoku::getCluePositions() const
+{
+	return cluePositions;
+}
+
+/////////////////////////////////////
 int Sudoku::generateNumberAt(int column, int row)
 {
 	std::vector <int> possibleNumbers;

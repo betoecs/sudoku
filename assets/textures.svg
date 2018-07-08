@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="241.74681"
-     inkscape:cy="196.24775"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="387.6542"
+     inkscape:cy="25.202407"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -74,24 +74,6 @@
        width="158.75"
        id="rect816"
        style="opacity:0.98999999;fill:#59b0f2;fill-opacity:1;stroke:none;stroke-width:0.39097479;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99215686" />
-    <rect
-       y="156.06363"
-       x="32.11694"
-       height="7.9382882"
-       width="7.9382887"
-       id="rect820"
-       style="opacity:0.98999999;fill:#fcbdc4;fill-opacity:1;stroke:#672d09;stroke-width:0.52837789;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       y="192.39468"
-       x="-11.536103"
-       height="7.9382887"
-       width="7.9382887"
-       id="rect822"
-       style="opacity:0.98999999;fill:none;fill-opacity:1;stroke:#672d09;stroke-width:0.52837789;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <g
        id="g914"
        transform="matrix(1.9999999,0,0,1.9999993,83.759523,-313.93311)"
@@ -134,7 +116,7 @@
          style="opacity:0.98999999;fill:none;fill-opacity:1;stroke:#60bff1;stroke-width:0.26782656;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <rect
-       style="opacity:0.98999999;fill:#e6e6e6;fill-opacity:0.53777777;stroke:none;stroke-width:0.6912635;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.02325583"
+       style="opacity:0.98999999;fill:#d2d2d2;fill-opacity:0.53777778;stroke:none;stroke-width:0.6912635;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.02325583"
        id="rect1003"
        width="16.933331"
        height="16.933327"
@@ -151,6 +133,15 @@
        width="16.933331"
        id="rect906"
        style="opacity:0.98999999;fill:#ff4e68;fill-opacity:0.81777775;stroke:none;stroke-width:0.6912635;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.02325583" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       y="263.15207"
+       x="33.893242"
+       height="16.933327"
+       width="16.933331"
+       id="rect865"
+       style="opacity:0.99;fill:#e5ffe5;fill-opacity:1;stroke:none;stroke-width:0.6912635;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.02325583" />
     <g
        id="g1001"
        inkscape:export-xdpi="96"
@@ -355,5 +346,14 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;font-family:'Kingthings Hand';-inkscape-font-specification:'Kingthings Hand, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">3</tspan></text>
       </g>
     </g>
+    <rect
+       style="opacity:0.98999999;fill:#eafcff;fill-opacity:0.99215686;stroke:none;stroke-width:0.6912635;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.02325583"
+       id="rect862"
+       width="16.933331"
+       height="16.933327"
+       x="117.62619"
+       y="280.06665"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>

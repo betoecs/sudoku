@@ -20,6 +20,7 @@ public:
 	bool set(int column, int row, int number);
 	bool isSolved();
 	void getInvalidPositions(std::vector <int> &invalidPositions) const;
+	const std::vector <int> & getCluePositions() const;
 
 private:
 	int generateNumberAt(int column, int row);
